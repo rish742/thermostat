@@ -1,3 +1,6 @@
 transitions
 matplotlib
 graphviz
+pandas
+numpy
+control
