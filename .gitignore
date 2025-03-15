@@ -173,4 +173,5 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
-Python_Simulation/thermostat_test.py
+
+Python_Simulation_test/
