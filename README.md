@@ -47,3 +47,10 @@ This project simulates a smart thermostat that adjusts its behavior based on:
 
 ```bash
 pip install -r requirements.txt
+```
+
+### 2. Run simulation
+
+```bash
+python Python_Simulation/thermostat.py
+```
