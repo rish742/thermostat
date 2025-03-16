@@ -40,7 +40,9 @@ dot.edge("Sleep", "Work", label="7:00")
 dot.edge("Work", "Hold", label="Override (Up/Down)")
 dot.edge("Home", "Hold", label="Override (Up/Down)")
 dot.edge("Sleep", "Hold", label="Override (Up/Down)")
-dot.edge("Hold", "Home", label="Next Schedule")
+dot.edge("Hold", "Home", label="Next Schedule(After Work - 16:00)")
+dot.edge("Hold", "Sleep", label="Next Schedule(After Home - 22:00)")
+dot.edge("Hold", "Work", label="Next Schedule(After sleep - 7:00)")
 
 # Render the statechart
 dot.render("thermostat_statechart", format="png", cleanup=False)

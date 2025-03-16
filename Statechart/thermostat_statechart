@@ -27,5 +27,7 @@ digraph Thermostat_Statechart {
 	Work -> Hold [label="Override (Up/Down)"]
 	Home -> Hold [label="Override (Up/Down)"]
 	Sleep -> Hold [label="Override (Up/Down)"]
-	Hold -> Home [label="Next Schedule"]
+	Hold -> Home [label="Next Schedule(After Work - 16:00)"]
+	Hold -> Sleep [label="Next Schedule(After Home - 22:00)"]
+	Hold -> Work [label="Next Schedule(After sleep - 7:00)"]
 }
