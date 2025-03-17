@@ -180,13 +180,13 @@ plt.title('Thermostat State Changes')
 plt.subplot(6, 1, 2)
 plt.plot(results['Time'], up_button_signal, label='Up', linestyle='--')
 plt.legend()
-plt.title('Up Adjustments')
+plt.title('Up Button')
 
 # Down toggle
 plt.subplot(6, 1, 3)
 plt.plot(results['Time'], down_button_signal, label='Down', linestyle='--', color='orange')
 plt.legend()
-plt.title('Down Adjustments')
+plt.title('Down Button')
 
 # Schedule states
 plt.subplot(6, 1, 4)
